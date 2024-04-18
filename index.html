@@ -1,0 +1,408 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dream PC | Ecommerce Website</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+</head>
+<body>
+    
+    <!-----Header----->
+
+    <div class="header">
+        <div class="container">
+            <div class="navbar">
+                <div class="logo">
+                    <img src="images/dreampc logo.png" width="125px">
+                </div>
+                <div class="search-container">
+                    <input type="text" class="search-bar" placeholder="Search...">
+                    <button class="search-button" type="button">Search</button>
+                </div>
+                    <nav>
+                        <ul id="MenuItems">
+                            <li><a href="">Home</a></li>
+                            <li><a href="">Products</a></li>
+                            <li><a href="">About</a></li>
+                            <li><a href="">Contact</a></li>
+                            <li><a href="./login.html">Account</a></li>
+                        </ul>
+                    </nav>
+                    <img src="images/carty.png" width="30px" height="30px">
+                    <img src="images/images/menu.png" class="menu-icon" onclick="menutoggle()">
+            </div>
+        </div>
+    </div>
+    
+    
+    <div class="col-1">
+        <img src="images/amd2.png" width="1300px" height="650px">
+    </div>
+
+
+   <div class="categories">
+        <div class="container">
+            <div class="row">
+                <div class="col-4">
+                    <div class="card">
+                        <img src="images/motherboard.png" alt="Motherboard">
+                        <p style="color: black;">MOTHERBOARD</p>
+                    </div>
+                </div>
+                <div class="col-4">
+                    <div class="card">
+                        <img src="images/procesors.png" alt="Processor">
+                        <p style="color: black;">PROCESSOR</p>
+                    </div>
+                </div>
+                <div class="col-4">
+                    <div class="card">
+                        <img src="images/gpu.png" alt="GPU">
+                        <p style="color: black;">GPU</p>
+                    </div>
+                </div>
+                <div class="col-4">
+                    <div class="card">
+                        <img src="images/ram.png" alt="RAM">
+                        <p style="color: black;">RAM</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+     <!-------- Featured Products -------->
+
+     <div class="small-cointainer">
+        <h2 class="title">Featured Products</h2>
+        <div class="row">
+            <div class="col-4">
+                <img src="images/feat1.png">
+                <h4>Intel I-June</h4>
+                <div class="rating">
+                    <i class='bx bxs-star'></i>
+                    <i class='bx bxs-star'></i>
+                    <i class='bx bxs-star'></i>
+                    <i class='bx bxs-star'></i>
+                    <i class='bx bx-star' ></i>
+                </div>
+                <p>100,000,00 PHP</p>
+            </div>
+            <div class="col-4">
+                <img src="images/feat2.png">
+                <h4>AMD I-June</h4>
+                <div class="rating">
+                    <i class='bx bxs-star'></i>
+                    <i class='bx bxs-star'></i>
+                    <i class='bx bxs-star'></i>
+                    <i class='bx bxs-star'></i>
+                    <i class='bx bx-star' ></i>
+                </div>
+                <p>100,000,00 PHP</p>
+            </div>
+            <div class="col-4">
+                <img src="images/feat3.png">
+                <h4>Legion I9</h4>
+                <div class="rating">
+                    <i class='bx bxs-star'></i>
+                    <i class='bx bxs-star'></i>
+                    <i class='bx bxs-star'></i>
+                    <i class='bx bxs-star'></i>
+                    <i class='bx bx-star' ></i>
+                </div>
+                <p>100,000,00 PHP</p>
+            </div>
+            <div class="col-4">
+                <img src="images/feat4.png">
+                <h4>HP I9</h4>
+                <div class="rating">
+                    <i class='bx bxs-star'></i>
+                    <i class='bx bxs-star'></i>
+                    <i class='bx bxs-star'></i>
+                    <i class='bx bxs-star'></i>
+                    <i class='bx bx-star' ></i>
+                </div>
+                <p>100,000,00 PHP</p>
+            </div>
+        </div>
+
+        <!-------- Latest Product -------->
+
+        <h2 class="title">Latest Product</h2>
+        <div class="row">
+            <div class="col-4">
+                <div class="card">
+                    <img src="images/intelxeon.jpg">
+                    <h4>Legion I9</h4>
+                    <div class="rating">
+                        <i class='bx bxs-star'></i>
+                        <i class='bx bxs-star'></i>
+                        <i class='bx bxs-star'></i>
+                        <i class='bx bxs-star'></i>
+                        <i class='bx bx-star' ></i>
+                    </div>
+                    <p style="color: black;">100,000,00 PHP</p>
+                </div>    
+            </div>
+            <div class="col-4">
+                <div class="card">
+                    <img src="images/intelxeon.jpg">
+                    <h4>Legion I9</h4>
+                    <div class="rating">
+                        <i class='bx bxs-star'></i>
+                        <i class='bx bxs-star'></i>
+                        <i class='bx bxs-star'></i>
+                        <i class='bx bxs-star'></i>
+                        <i class='bx bx-star' ></i>
+                    </div>
+                    <p style="color: black;">100,000,00 PHP</p>
+                </div>    
+            </div>
+            <div class="col-4">
+                <div class="card">
+                    <img src="images/intelxeon.jpg">
+                    <h4>Legion I9</h4>
+                    <div class="rating">
+                        <i class='bx bxs-star'></i>
+                        <i class='bx bxs-star'></i>
+                        <i class='bx bxs-star'></i>
+                        <i class='bx bxs-star'></i>
+                        <i class='bx bx-star' ></i>
+                    </div>
+                    <p style="color: black;">100,000,00 PHP</p>
+                </div>    
+            </div>
+            <div class="col-4">
+                <div class="card">
+                    <img src="images/intelxeon.jpg">
+                    <h4>Legion I9</h4>
+                    <div class="rating">
+                        <i class='bx bxs-star'></i>
+                        <i class='bx bxs-star'></i>
+                        <i class='bx bxs-star'></i>
+                        <i class='bx bxs-star'></i>
+                        <i class='bx bx-star' ></i>
+                    </div>
+                    <p style="color: black;">100,000,00 PHP</p>
+                </div>    
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-4">
+                <div class="card">
+                    <img src="images/intelxeon.jpg">
+                    <h4>Legion I9</h4>
+                    <div class="rating">
+                        <i class='bx bxs-star'></i>
+                        <i class='bx bxs-star'></i>
+                        <i class='bx bxs-star'></i>
+                        <i class='bx bxs-star'></i>
+                        <i class='bx bx-star' ></i>
+                    </div>
+                    <p style="color: black;">100,000,00 PHP</p>
+                </div>    
+            </div>
+            <div class="col-4">
+                <div class="card">
+                    <img src="images/intelxeon.jpg">
+                    <h4>Legion I9</h4>
+                    <div class="rating">
+                        <i class='bx bxs-star'></i>
+                        <i class='bx bxs-star'></i>
+                        <i class='bx bxs-star'></i>
+                        <i class='bx bxs-star'></i>
+                        <i class='bx bx-star' ></i>
+                    </div>
+                    <p style="color: black;">100,000,00 PHP</p>
+                </div>    
+            </div>
+            <div class="col-4">
+                <div class="card">
+                    <img src="images/intelxeon.jpg">
+                    <h4>Legion I9</h4>
+                    <div class="rating">
+                        <i class='bx bxs-star'></i>
+                        <i class='bx bxs-star'></i>
+                        <i class='bx bxs-star'></i>
+                        <i class='bx bxs-star'></i>
+                        <i class='bx bx-star' ></i>
+                    </div>
+                    <p style="color: black;">100,000,00 PHP</p>
+                </div>    
+            </div>
+            <div class="col-4">
+                <div class="card">
+                    <img src="images/intelxeon.jpg">
+                    <h4>Legion I9</h4>
+                    <div class="rating">
+                        <i class='bx bxs-star'></i>
+                        <i class='bx bxs-star'></i>
+                        <i class='bx bxs-star'></i>
+                        <i class='bx bxs-star'></i>
+                        <i class='bx bx-star' ></i>
+                    </div>
+                    <p style="color: black;">100,000,00 PHP</p>
+                </div>    
+            </div>
+        </div>
+     </div>
+
+     <!-------- Limited Product -------->
+
+     <div class="offer">
+        <div class="small-cointainer">
+            <div class="row">
+                <div class="col-2">
+                    <img src="images/wesstand.jpg" class="offer-img">
+                </div>
+                <div class="col-2">
+                    <p>Limited Products only available on weskita</p>
+                    <h1>Weskita Versikulo 999</h1>
+                    <small>This is weskita he may look un assuming but he is myhtic he is good at ml 
+                        somethime but not all the times, pls buy him for only 999 btw he is the 99th version of our weskita product</small>
+                    <a href="" class="btn">Buy Now &#8594;</a>
+                </div>
+            </div>
+        </div>
+     </div>
+
+     <!--------- Testimonial --------->
+
+     <div class="Testimonial">
+        <div class="small-cointainer">
+            <div class="row">
+                <div class="col-3">
+                    <i class='bx bxs-quote-left' ></i>
+                    <p>This is the best version of weskita I am very satisfied with this purchase I now have some one to carry me to mythic and
+                        also someone who can do my chores. I no longer do my chores everyday, Thank You Dream PC my dream has been granted.</p>
+                    <div class="rating">
+                        <i class='bx bxs-star'></i>
+                        <i class='bx bxs-star'></i>
+                        <i class='bx bxs-star'></i>
+                        <i class='bx bxs-star'></i>
+                        <i class='bx bx-star' ></i>
+                    </div>
+                    <img src="images/jelo.jpg">
+                    <h3>Jelo Memo</h3>
+                </div>
+                <div class="col-3">
+                    <i class='bx bxs-quote-left' ></i>
+                    <p>This is the best version of weskita I am very satisfied with this purchase I now have some one to carry me to mythic and
+                        also someone who can do my chores. I no longer do my chores everyday, Thank You Dream PC my dream has been granted.</p>
+                    <div class="rating">
+                        <i class='bx bxs-star'></i>
+                        <i class='bx bxs-star'></i>
+                        <i class='bx bxs-star'></i>
+                        <i class='bx bxs-star'></i>
+                        <i class='bx bx-star' ></i>
+                    </div>
+                    <img src="images/wesstand.jpg">
+                    <h3>Westika Toria</h3>
+                </div>
+                <div class="col-3">
+                    <i class='bx bxs-quote-left' ></i>
+                    <p>This is the best version of weskita I am very satisfied with this purchase I now have some one to carry me to mythic and
+                        also someone who can do my chores. I no longer do my chores everyday, Thank You Dream PC my dream has been granted.</p>
+                    <div class="rating">
+                        <i class='bx bxs-star'></i>
+                        <i class='bx bxs-star'></i>
+                        <i class='bx bxs-star'></i>
+                        <i class='bx bxs-star'></i>
+                        <i class='bx bx-star' ></i>
+                    </div>
+                    <img src="images/wessleeop.jpg">
+                    <h3>Doria Soria Mishima</h3>
+                </div>
+            </div>
+        </div>
+     </div>
+
+     <!--------- Brands --------->
+
+     <div class="brands">
+        <div class="small-cointainer">
+            <div class="row">
+                <div class="col-5">
+                    <img src="images/images/logo-godrej.png">
+                </div>
+                <div class="col-5">
+                    <img src="images/images/logo-coca-cola.png">
+                </div>
+                <div class="col-5">
+                    <img src="images/images/logo-oppo.png">
+                </div>
+                <div class="col-5">
+                    <img src="images/images/logo-paypal.png">
+                </div>
+                <div class="col-5">
+                    <img src="images/images/logo-philips.png">
+                </div>
+            </div>
+        </div>
+     </div>
+
+        <!------- Footer --------->
+
+        <div class="footer">
+            <div class="container">
+                <div class="row">
+                    <div class="footer-col-1">
+                        <h3>Download Our App</h3>
+                        <p>Please support me</p>
+                        <div class="app-logo">
+                            <img src="images/images/play-store.png">
+                            <img src="images/images/app-store.png">
+                        </div>
+                    </div>
+                    <div class="footer-col-2">
+                        <img src="images/dreampc logo.png">
+                        <p>By Reigh And Weskita</p>
+                    </div>
+                    <div class="footer-col-3">
+                        <h3>Useful Links</h3>
+                        <ul>
+                            <li>Discount</li>
+                            <li>Blogs</li>
+                            <li>Policy</li>
+                            <li>Shipping</li>
+                            <li>Coupons</li>
+                        </ul>
+                    </div>
+                    <div class="footer-col-4">
+                        <h3>Follow Us</h3>
+                        <ul>
+                            <li>Facebook</li>
+                            <li>Instagram</li>
+                            <li>Twitter</li>
+                            <li>LinkedIn</li>
+                            <li>Youtube</li>
+                        </ul>
+                    </div>
+                </div>
+                <hr>
+                    <p class="copyright">Copyright 2024 - Dean Billedo - </p>
+                </hr>
+            </div>
+        </div>
+
+    <!---------JS for toggle menu --------->
+
+    <script>
+        var MenuItems = document.getElementById("MenuItems");
+        MenuItems.style.maxHeight = "0px";
+        function menutoggle(){
+            if(MenuItems.style.maxHeight == "0px"){
+                MenuItems.style.maxHeight = "200px"
+            }
+            else{
+                MenuItems.style.maxHeight = "0px"
+            }
+        }
+    </script>
+
+</body>
+</html>
